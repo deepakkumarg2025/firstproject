@@ -12,6 +12,7 @@ def lambda_handler(event, context):
         response = ec2.stop_instances(InstanceIds=[instance_id])
         return {'message': f'EC2 instance {instance_id} is stopping', 'response': response}
     
-    else:
         return {'error': 'Invalid action. Use "start" or "stop".'}
-	test page 
+	test page test
+	teset
+	update 
